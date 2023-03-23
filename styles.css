@@ -165,7 +165,7 @@ html, body {
     margin-left: auto;
 }
 
-@media screen and (max-width: 1020px) {
+/*@media screen and (max-width: 1020px) {
 
     .concert-tour {
         background-image: url("images/tour.png");
@@ -184,7 +184,7 @@ html, body {
         border-color: transparent;
         box-shadow: 5px 5px 5px 5px darkslategray;
      }
-}
+}*/
 
 @media screen and (max-width: 415px)
  {
