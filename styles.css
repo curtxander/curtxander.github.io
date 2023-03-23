@@ -107,9 +107,9 @@ html, body {
 
 .tours {
    width: 350px;
-   position: relative;
+   position: absolute;
    left: 950px;
-   top: 380px;
+   top: 750px;
    border: 10px solid;
    border-color: transparent;
    box-shadow: 5px 5px 5px 5px darkslategray;
@@ -167,14 +167,94 @@ html, body {
 
 @media screen and (max-width: 1020px) {
 
+    .concert-tour {
+        background-image: url("images/tour.png");
+        background-size: cover;
+        width: 1000px;
+        height: 700px;
+    }
+
     .tours {
         width: 350px;
         position: absolute;
-        left: 350px;
-        top: 880px;
+        left: 250px;
+        top: 700px;
         background-color: wheat;
         border: 10px solid;
         border-color: transparent;
         box-shadow: 5px 5px 5px 5px darkslategray;
      }
+}
+
+@media screen and (max-width: 415px)
+ {
+    .concert-tour {
+        background-image: url("images/tour.png");
+        background-size: cover;
+        width: 450px;
+        height: 400px;
+    }
+    .tours {
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: absolute;
+        left: 140px;
+        top: 470px;
+        background-color: wheat;
+        border: 10px solid;
+        border-color: transparent;
+        box-shadow: 5px 5px 5px 5px darkslategray;
+     }
+
+     .date {
+        font-size: 0.5em;
+        color: darkcyan;
+        padding-right: 0.2em;
+        display: inline-block;
+        width: 22%;
+    }
+    
+    .date-orange {
+        font-size: 0.5em;
+        color: orange;
+        padding-right: 0.2em;
+        display: inline-block;
+        width: 22%;
+    }
+    
+    .location {
+        font-size: 0.5em;
+    }
+    
+    .country {
+        padding-right: 0.5em;
+    }
+
+    .us {
+        width: 170px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .canada {
+        width: 170px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .vancouver {
+        padding-top: 10px;
+    }
+
+    .socmed {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        gap: 0.2em;
+        padding-right: 1em;
+        padding-top: 1em;
+        margin-left: auto;
+    }
+    
 }
