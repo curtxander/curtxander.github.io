@@ -170,13 +170,13 @@ html, body {
         background-image: url("images/tour.png");
         background-size: cover;
         width: 1550px;
-        height: 1000px;
+        height: 1100px;
     }
     
     .tours {
         width: 350px;
         position: absolute;
-        left: 1450px;
+        left: 1300px;
         top: 900px;
         border: 10px solid;
         border-color: transparent;
