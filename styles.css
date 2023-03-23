@@ -169,14 +169,15 @@ html, body {
      .concert-tour {
         background-image: url("images/tour.png");
         background-size: cover;
+        width: 1550px;
         height: 1000px;
     }
     
     .tours {
         width: 350px;
         position: absolute;
-        left: 1500px;
-        top: 1000px;
+        left: 1450px;
+        top: 900px;
         border: 10px solid;
         border-color: transparent;
         box-shadow: 5px 5px 5px 5px darkslategray;
