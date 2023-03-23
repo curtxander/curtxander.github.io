@@ -169,6 +169,8 @@ html, body {
      .concert-tour {
         background-image: url("images/tour.png");
         background-size: cover;
+        width: 1400px;
+        heigth: 1200px;
     }
     
     .tours {
