@@ -165,7 +165,7 @@ html, body {
     margin-left: auto;
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (max-width: 1920px){
      .concert-tour {
         background-image: url("images/tour.png");
         background-size: cover;
