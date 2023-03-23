@@ -165,12 +165,10 @@ html, body {
     margin-left: auto;
 }
 
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1600px){
      .concert-tour {
         background-image: url("images/tour.png");
         background-size: cover;
-        width: 100%;
-        heigth: 100%;
     }
     
     .tours {
