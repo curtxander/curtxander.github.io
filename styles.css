@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: Montserrat;
+    color: black;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0.8em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: lightgray;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: 1px solid lightgray;
+}
+
+.main-header {
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+.bandName-head {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 10vw;
+    color: white;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.section-header {
+    font-size: 2em;
+    text-align: center;
+}
+
+.eheads-pic {
+    float: left;
+    margin: 15px;
+    border-radius: 50%;
+    border: 5px solid darkslategray;
+}
+
+.about-eheads {
+    font-size: 1.8em;
+}
+
+.buttons {
+   display: flex;
+   justify-content: center;
+   gap: 1.5em;
+}
+
+.buttons a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 1em;
+    border: 3px solid white;
+}
+
+.btn-header:hover {
+    background-color: lightgrey;
+}
+
+.btn-play {
+    border: 3px solid white;
+    font-size: 1.5em;
+    border-radius: 50%;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.concert-tour {
+    background-image: url("images/tour.png");
+    background-size: cover;
+    height: 920px;
+}
+
+.tours {
+   width: 350px;
+   position: relative;
+   left: 950px;
+   top: 380px;
+   border: 10px solid;
+   border-color: transparent;
+   box-shadow: 5px 5px 5px 5px darkslategray;
+}
+
+.date {
+    font-size: 1em;
+    color: darkcyan;
+    padding-right: 0.2em;
+    display: inline-block;
+    width: 22%;
+}
+
+.date-orange {
+    font-size: 1em;
+    color: orange;
+    padding-right: 0.2em;
+    display: inline-block;
+    width: 22%;
+}
+
+.location {
+    font-size: 1em;
+}
+
+.country {
+    padding-right: 1em;
+}
+
+.bandName-foot{
+    color: white;
+    font-size: 1.5em;
+    padding-left: 2em;
+}
+.main-footer {
+    background-color: darkslategrey;
+    padding: .25em 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.socmed {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 1em;
+    padding-right: 2em;
+    padding-top: 1em;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1020px) {
+
+    .tours {
+        width: 350px;
+        position: absolute;
+        left: 350px;
+        top: 880px;
+        background-color: wheat;
+        border: 10px solid;
+        border-color: transparent;
+        box-shadow: 5px 5px 5px 5px darkslategray;
+     }
+}
